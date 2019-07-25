@@ -45,7 +45,7 @@ class CacheManager {
                     }
 
                     resources[i].href = resources[i].href+`${delimiter}`+paramsKey[Math.floor((Math.random()*10)%5)]+"="+params
-                }else if(resources[i].tagName.toLowerCase().trim() === 'image' || resources[i].tagName.toLowerCase().trim() === 'script'){
+                }else if(resources[i].tagName.toLowerCase().trim() === 'img' || resources[i].tagName.toLowerCase().trim() === 'script'){
                     let delimiter="?"
                     if(resources[i].src.toString().indexOf("?")!==-1){
                         delimiter = "&"
