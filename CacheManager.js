@@ -1,4 +1,4 @@
-export class CacheManager {
+class CacheManager {
 
     /***
      * This function list all cache content of your browser,
