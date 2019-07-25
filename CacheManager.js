@@ -12,7 +12,7 @@ class CacheManager {
 
         let resourcesArray = [];
         if(resources){
-            for(i=0;i<resources.length;i++){
+            for(let i=0;i<resources.length;i++){
                 resourcesMap.set(`resources-item-${i}`,resources[i])
             }
         }
