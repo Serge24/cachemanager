@@ -8,7 +8,7 @@ class CacheManager {
     
     static getCache = (success)=>{
         let resourcesMap = new Map();
-        let resources = document.querySelectorAll("image, link, script");
+        let resources = document.querySelectorAll("img, link, script");
 
         let resourcesArray = [];
         if(resources){
